@@ -73,6 +73,8 @@ public class CreateMeasurements2 {
     }
 
     public static void main(String[] args) throws Exception {
+        System.out.println("Starting file generation...");
+
         long start = System.currentTimeMillis();
 
         if (args.length != 1) {

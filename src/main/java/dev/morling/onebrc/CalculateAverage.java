@@ -42,7 +42,7 @@ public class CalculateAverage {
         private double round(double value) {
             return Math.round(value * 10.0) / 10.0;
         }
-    };
+    }
 
     private static class MeasurementAggregator {
         private double min = Double.POSITIVE_INFINITY;
